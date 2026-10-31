@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f8f5ef">
+  <meta name="description" content="Thoughtful questions about marriage, love, and the life you build together. Explore 214 conversation starters across 11 topics.">
+  <title>Let’s Talk Forever</title>
+  <link rel="icon" href="./icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./data.js"></script>
+  <script defer src="./core.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a href="#/" class="brand" aria-label="Let’s Talk Forever — home"><span class="brand-symbol" aria-hidden="true">∞</span><span>Let’s Talk Forever</span></a>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer"><span>A little curiosity. A conversation worth having.</span><span id="session-note"></span></footer>
+  <div id="announcement" class="sr-only" role="status" aria-live="polite"></div>
+  <div id="toast" class="toast" role="status" hidden></div>
+  <dialog id="confirm-dialog" aria-labelledby="dialog-title" aria-describedby="dialog-description">
+    <form method="dialog"><span class="eyebrow">A FRESH START</span><h2 id="dialog-title"></h2><p id="dialog-description"></p><div class="dialog-actions"><button class="button secondary" value="cancel" autofocus>Cancel</button><button class="button primary" id="confirm-action" value="confirm">Reset Session</button></div></form>
+  </dialog>
+  <noscript><p class="noscript">Please enable JavaScript to explore the question bank.</p></noscript>
+</body>
+</html>
